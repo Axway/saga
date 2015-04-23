@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
@@ -5,7 +6,7 @@
     <artifactId>saga-root</artifactId>
     <packaging>pom</packaging>
 
-    <version>1.5.4-AXWAY-SNAPSHOT</version>
+    <version>1.5.4-AXWAY-1</version>
     <description>Better JavaScript code coverage tool</description>
     <url>http://timurstrekalov.github.com/saga/</url>
 
@@ -24,10 +25,11 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/timurstrekalov/saga</url>
-        <connection>scm:git:git://github.com/timurstrekalov/saga.git</connection>
-        <developerConnection>scm:git:git@github.com:timurstrekalov/saga.git</developerConnection>
-    </scm>
+        <url>git@github.com:Axway/saga.git</url>
+        <connection>scm:git:git@github.com:Axway/saga.git</connection>
+        <developerConnection>scm:git:git@github.com:Axway/saga.git</developerConnection>
+    <tag>1.5.4-AXWAY-1</tag>
+</scm>
 
     <developers>
         <developer>
